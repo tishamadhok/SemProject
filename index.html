@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tisha Madhok</title>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
@@ -28,8 +28,13 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">About</button>
+                    <div class="dropdown-content">
+                        <a href="about.html">About Me</a>
+                        <a href="Resume%201.pdf">Resume</a>
+                    </div>
+                </div>                <li><a href="shop.html">Shop</a></li>
                 <div class="dropdown">
                     <button class="dropbtn">Contact</button>
                     <div class="dropdown-content">
@@ -45,13 +50,14 @@
     </div>
 </nav>
 
+
 <div class="col-sm-8 text-left">
     <h1>Welcome</h1>
     <p> A Collection of Works</p>
     <hr>
 
     <div class="card">
-        <img src="images/TishaMadhok.jpg" alt="Avatar" style="width:100%">
+        <p><a href="about.html"> <img src="images/TishaMadhok.jpg" alt="Avatar" style="width:70%; bottom:0; right:75px; position: auto;"></a></p>
         <div class="container1">
             <h4><b>Tisha Madhok</b></h4>
             <p>A creator and student, motivated in all senses.</p>
